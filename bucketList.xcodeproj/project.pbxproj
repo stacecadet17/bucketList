@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE7D3AD1FBB7CF900EDA4D3 /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7D3AC1FBB7CF900EDA4D3 /* AddItemTableViewControllerDelegate.swift */; };
 		0CEABF491FBA46D400D58771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF481FBA46D400D58771 /* AppDelegate.swift */; };
-		0CEABF4B1FBA46D400D58771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF4A1FBA46D400D58771 /* ViewController.swift */; };
+		0CEABF4B1FBA46D400D58771 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF4A1FBA46D400D58771 /* BucketListViewController.swift */; };
 		0CEABF4E1FBA46D400D58771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEABF4C1FBA46D400D58771 /* Main.storyboard */; };
 		0CEABF501FBA46D400D58771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEABF4F1FBA46D400D58771 /* Assets.xcassets */; };
 		0CEABF531FBA46D400D58771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEABF511FBA46D400D58771 /* LaunchScreen.storyboard */; };
 		0CEABF5E1FBA46D500D58771 /* bucketListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF5D1FBA46D500D58771 /* bucketListTests.swift */; };
 		0CEABF691FBA46D500D58771 /* bucketListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF681FBA46D500D58771 /* bucketListUITests.swift */; };
+		0CEABF791FBA5F8B00D58771 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF781FBA5F8B00D58771 /* AddItemTableViewController.swift */; };
+		0CEABF7B1FBA613400D58771 /* cancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEABF7A1FBA613400D58771 /* cancelButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE7D3AC1FBB7CF900EDA4D3 /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 		0CEABF451FBA46D400D58771 /* bucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEABF481FBA46D400D58771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CEABF4A1FBA46D400D58771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CEABF4A1FBA46D400D58771 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		0CEABF4D1FBA46D400D58771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CEABF4F1FBA46D400D58771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CEABF521FBA46D400D58771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		0CEABF641FBA46D500D58771 /* bucketListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bucketListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEABF681FBA46D500D58771 /* bucketListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucketListUITests.swift; sourceTree = "<group>"; };
 		0CEABF6A1FBA46D500D58771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEABF781FBA5F8B00D58771 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		0CEABF7A1FBA613400D58771 /* cancelButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cancelButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				0CEABF481FBA46D400D58771 /* AppDelegate.swift */,
-				0CEABF4A1FBA46D400D58771 /* ViewController.swift */,
+				0CEABF4A1FBA46D400D58771 /* BucketListViewController.swift */,
 				0CEABF4C1FBA46D400D58771 /* Main.storyboard */,
+				0CE7D3AC1FBB7CF900EDA4D3 /* AddItemTableViewControllerDelegate.swift */,
+				0CEABF7A1FBA613400D58771 /* cancelButtonDelegate.swift */,
+				0CEABF781FBA5F8B00D58771 /* AddItemTableViewController.swift */,
 				0CEABF4F1FBA46D400D58771 /* Assets.xcassets */,
 				0CEABF511FBA46D400D58771 /* LaunchScreen.storyboard */,
 				0CEABF541FBA46D400D58771 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CEABF4B1FBA46D400D58771 /* ViewController.swift in Sources */,
+				0CEABF4B1FBA46D400D58771 /* BucketListViewController.swift in Sources */,
 				0CEABF491FBA46D400D58771 /* AppDelegate.swift in Sources */,
+				0CEABF7B1FBA613400D58771 /* cancelButtonDelegate.swift in Sources */,
+				0CE7D3AD1FBB7CF900EDA4D3 /* AddItemTableViewControllerDelegate.swift in Sources */,
+				0CEABF791FBA5F8B00D58771 /* AddItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
